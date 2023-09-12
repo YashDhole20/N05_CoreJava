@@ -1,6 +1,6 @@
 package org.tnsif.uncheckedException;
 import java.io.IOException;
-
+//Program to demonstrate throw keyword
 public class ThrowExecutor {
 
 	//throw keyword  is used to declare an exception 

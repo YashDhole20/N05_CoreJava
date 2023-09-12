@@ -1,10 +1,11 @@
 package org.tnsif.customException;
 
-//program t demonstrate on user-defined exception
+//program to demonstrate on user-defined exception
 public class LoginCredentials  extends Exception{
 	
 	//private data member
 	private String str;
+	
 	//getter and setter
 	public String getStr() {
 		return str;

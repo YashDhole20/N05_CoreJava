@@ -20,6 +20,7 @@ public class ArrayIndexOutOfBoundExceptionExecutor {
 		int arr1[]= {12,15,4,15,45};
 		print(arr);
 		print(arr1);
+		
 	}
 
 }
