@@ -4,6 +4,7 @@ package org.tnsif.stramapi;
 import java.util.ArrayList;
 import java.util.Arrays; 
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -116,6 +117,12 @@ public class StreamBasics {
 		  studStream=stList.stream(); studStream=studStream.filter(prePred);
 		  List<Student> newStud=studStream.collect(Collectors.toList());
 		  System.out.println(newStud);
+		  
+		  //reduce()
+		  System.out.println(intList);
+		  intStream=intList.stream();
+		  Optional<Integer> sum=intStream.reduce((x,y)->x+y);
+		  System.out.println("Addition : "+sum);
 		 
 		
 		
