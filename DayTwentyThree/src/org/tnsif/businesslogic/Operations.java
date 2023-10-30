@@ -48,4 +48,14 @@ public class Operations {
 		else
 			return false;
 	}
+	 
+	public static String getName() {
+		return  "Yash";
+	}
+	public static int add(int a,int b) {
+		return a+b;
+	}
+	public static void performDivision(int a,int b)throws ArithmeticException {
+		System.out.println("Division :"+a/b);
+	}
 }
